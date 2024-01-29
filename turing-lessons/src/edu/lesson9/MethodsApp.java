@@ -15,7 +15,7 @@ public class MethodsApp {
 
     public static void PrintArray(int[] array) {
         for (int i = 0; i < 3; i++) {
-            System.out.println(i + " - " + array[i]);
+            System.out.println(i + " -> " + array[i]);
         }
     }
 }
