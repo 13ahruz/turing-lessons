@@ -13,7 +13,7 @@ public class FunctionsApp {
         System.out.println("Area of square is: " + AreaOfSquare(tile));
         System.out.println("Perimeter of square is: " + PerimeterOfSquare(tile));
         System.out.println("Area of circle is: " + AreaOfCircle(radius));
-        System.out.println("Perimeter of circle is: " + PerimeterOfSquare(radius));
+        System.out.println("Length of circle is: " + LengthOfCircle(radius));
     }
 
     public static int AreaOfSquare(int tile) {
