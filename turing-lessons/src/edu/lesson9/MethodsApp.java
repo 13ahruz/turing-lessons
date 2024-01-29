@@ -11,8 +11,6 @@ public class MethodsApp {
             }
             PrintArray(arr);
         }
-
-
     }
 
     public static void PrintArray(int[] array) {
