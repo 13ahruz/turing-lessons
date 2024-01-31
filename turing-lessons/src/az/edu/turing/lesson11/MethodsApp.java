@@ -2,15 +2,12 @@ package az.edu.turing.lesson11;
 
 public class MethodsApp {
     public static void main(String[] args) {
-        System.out.println(plusTwoDouble(3));
-        System.out.println(plusTwoInt(5));
+        printChar(new char[]{'A', 'B', 'C'});
     }
 
-    public static double plusTwoDouble(double a) {
-        return a + 2;
-    }
-
-    public static int plusTwoInt(int a) {
-        return a + 2;
+    public static void printChar(char[] a) {
+        for (int i = 0; i < a.length; i++) {
+            System.out.print(a[i]);
+        }
     }
 }
