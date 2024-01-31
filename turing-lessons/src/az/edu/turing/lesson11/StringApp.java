@@ -13,6 +13,4 @@ public class StringApp {
         System.out.println(myStr.replace('a', 'z'));
         System.out.println(myStr.indexOf('a'));
     }
-
-
 }
