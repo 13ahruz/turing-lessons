@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class StringApp {
     public static void main(String[] args) {
-        String myStr = new Scanner(System.in).nextLine();
+        String sentence = new Scanner(System.in).nextLine();
 
-        System.out.println(myStr.toLowerCase());
-        System.out.println(myStr.toUpperCase());
-        System.out.println(myStr.trim());
-        System.out.println(myStr.split(" "));
-        System.out.println(myStr.replace('a', 'z'));
-        System.out.println(myStr.indexOf('a'));
+        System.out.println(sentence.toLowerCase());
+        System.out.println(sentence.toUpperCase());
+        System.out.println(sentence.trim());
+        System.out.println(sentence.split(" "));
+        System.out.println(sentence.replace('a', 'z'));
+        System.out.println(sentence.indexOf('a'));
     }
 }
