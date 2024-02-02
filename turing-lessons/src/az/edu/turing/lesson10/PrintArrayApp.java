@@ -4,19 +4,20 @@ import java.util.Scanner;
 
 public class PrintArrayApp {
     public static void main(String[] args) {
-       int s = new Scanner(System.in).nextInt();
-       int n = 1;
-       int counter = 1;
-       while (n < s){
-           n += 2*n + counter;
-           counter++;
-       }
-        System.out.println(counter);
+        Scanner sc = new Scanner(System.in);
+        int[] nums = new int[2];
+        int counter = 1;
+        for (int i = 0; i < 2; i++) {
+            nums[i] = sc.nextInt();
+        }
+
+        for (int i = 0; i < nums[0]; i++) {
+            for (int j = 0; j < nums[1]; j++) {
+                System.out.print(counter++ + " ");
+            }
+            System.out.println();
+        }
     }
 }
 
-/*
-Çatmış bahar bayramı, əlində hədiyyələrlə,
 
-
-*/
