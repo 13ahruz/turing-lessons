@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class StringApp {
     public static void main(String[] args) {
-        String mail = new Scanner(System.in).nextLine();
+        String eMail = new Scanner(System.in).nextLine();
 
-        System.out.println(takeNameFromMail(mail));
-        System.out.println(printLengthOfName(takeNameFromMail(mail)));
+        System.out.println(takeNameFromMail(eMail));
+        System.out.println(printLengthOfName(takeNameFromMail(eMail)));
     }
 
     public static String takeNameFromMail(String mail) {
