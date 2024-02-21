@@ -1,4 +1,4 @@
-package az.edu.turing.module1.lesson4;
+package az.edu.turing.module1.lesson4.familyBar;
 
 public class FamilyApp {
     public static void main(String[] args) {

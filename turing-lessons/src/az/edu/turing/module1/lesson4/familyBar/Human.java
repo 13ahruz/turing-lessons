@@ -1,4 +1,4 @@
-package az.edu.turing.module1.lesson4;
+package az.edu.turing.module1.lesson4.familyBar;
 
 import java.util.Arrays;
 
