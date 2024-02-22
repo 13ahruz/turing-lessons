@@ -2,7 +2,7 @@ package az.edu.turing.module1.lesson5;
 
 import java.util.Random;
 
-public class RandomSeatApp2 {
+public class RandomSeat2App {
     public static void main(String[] args) {
         //Description
         // I also used Fisher-Yates shuffle algorithm for random seats here
