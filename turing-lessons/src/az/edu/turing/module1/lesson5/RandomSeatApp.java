@@ -4,6 +4,9 @@ import java.util.Random;
 
 public class RandomSeatApp {
     public static void main(String[] args) {
+        //Description
+        // I used Fisher-Yates shuffle algorithm for random seats
+
         String[] names = {
                 "Ali", "Aybaniz", "Aydan", "Bahruz", "Bashir",
                 "Eldar", "Farid H.", "Fariz K.", "Ilham", "Kanan",
