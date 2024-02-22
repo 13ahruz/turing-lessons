@@ -11,28 +11,34 @@ public class RandomSeatApp {
         };
         int[] seats = new int[names.length];
 
-        // If you want, we can fill the array manually,
-        // but I write it with for loop for any count of students and seats
-        for (int i = 0; i < seats.length; i++) {
-            seats[i] = i;
-        }
-
+        fillArray(seats);
         shuffleSeats(seats);
+        printResult(names, seats);
+    }
 
-        for (int i = 0; i < names.length; i++) {
-            String student = names[i];
-            int seat = seats[i];
-            System.out.println(student + " -> Seat " + seat);
+    public static void shuffleSeats(int[] seats) {
+        Random rnd = new Random();
+        for (int i = seats.length - 1; i > 0; i--) {
+            int index = rnd.nextInt(i + 1);
+            int temp = seats[index];
+            seats[index] = seats[i];
+            seats[i] = temp;
         }
     }
 
-    public static void shuffleSeats(int[] seat) {
-        Random rnd = new Random();
-        for (int i = seat.length - 1; i > 0; i--) {
-            int index = rnd.nextInt(i + 1);
-            int temp = seat[index];
-            seat[index] = seat[i];
-            seat[i] = temp;
+    public static void printResult(String[] students, int[] seats) {
+        for (int i = 0; i < students.length; i++) {
+            String student = students[i];
+            int seat = seats[i];
+            System.out.printf("%s\t->\tSeat %d\n", student, seat);
+        }
+    }
+
+    public static void fillArray(int[] array) {
+        // If you want, we can fill the array manually,
+        // but I write it with for loop for any count of students and seats
+        for (int i = 0; i < array.length; i++) {
+            array[i] = i;
         }
     }
 }
