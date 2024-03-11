@@ -13,6 +13,7 @@ public class ExceptionApp {
         try {
             int number1 = Integer.parseInt(line1);
             int number2 = Integer.parseInt(line2);
+
             System.out.println((double) number1 / number2);
         } catch (Exception e) {
             System.out.println("Your input is not a valid number!");
