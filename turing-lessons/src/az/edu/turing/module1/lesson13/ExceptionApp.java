@@ -11,9 +11,9 @@ public class ExceptionApp {
         System.out.print("Input ur 2nd number: ");
         String b = sc.nextLine();
         try {
-            int c = Integer.parseInt(a);
-            int d = Integer.parseInt(b);
-            System.out.println((double) c / d);
+            int number1 = Integer.parseInt(a);
+            int number2 = Integer.parseInt(b);
+            System.out.println((double) number1 / number2);
         } catch (Exception e) {
             System.out.println("Your input is not a valid number!");
         }
