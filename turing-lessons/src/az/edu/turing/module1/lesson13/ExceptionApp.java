@@ -7,12 +7,12 @@ public class ExceptionApp {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Input ur 1st number: ");
-        String a = sc.nextLine();
+        String line1 = sc.nextLine();
         System.out.print("Input ur 2nd number: ");
-        String b = sc.nextLine();
+        String line2 = sc.nextLine();
         try {
-            int number1 = Integer.parseInt(a);
-            int number2 = Integer.parseInt(b);
+            int number1 = Integer.parseInt(line1);
+            int number2 = Integer.parseInt(line2);
             System.out.println((double) number1 / number2);
         } catch (Exception e) {
             System.out.println("Your input is not a valid number!");
