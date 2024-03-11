@@ -7,7 +7,8 @@ public class ExceptionApp {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Input ur input: ");
-        int a = sc.nextInt();
-        System.out.println(a);
+        String a = sc.nextLine();
+        int b = Integer.parseInt(a);
+        System.out.println(b);
     }
 }
