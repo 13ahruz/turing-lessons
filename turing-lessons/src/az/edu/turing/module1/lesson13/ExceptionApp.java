@@ -15,7 +15,7 @@ public class ExceptionApp {
             int d = Integer.parseInt(b);
             System.out.println((double) c / d);
         } catch (Exception e) {
-            System.out.println("Your input is not a number!");
+            System.out.println("Your input is not a valid number!");
         }
     }
 }
