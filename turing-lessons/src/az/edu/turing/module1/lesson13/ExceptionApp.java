@@ -1,7 +1,5 @@
 package az.edu.turing.module1.lesson13;
 
-import com.sun.source.tree.TryTree;
-
 import java.util.Scanner;
 
 public class ExceptionApp {
