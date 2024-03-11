@@ -6,9 +6,12 @@ public class ExceptionApp {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Input ur input: ");
+        System.out.print("Input ur 1st input: ");
         String a = sc.nextLine();
-        int b = Integer.parseInt(a);
-        System.out.println(b);
+        System.out.print("Input ur 2nd input: ");
+        String b = sc.nextLine();
+        int c = Integer.parseInt(a);
+        int d = Integer.parseInt(b);
+        System.out.println(c/d);
     }
 }
