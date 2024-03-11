@@ -6,12 +6,16 @@ public class ExceptionApp {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Input ur 1st input: ");
+        System.out.print("Input ur 1st number: ");
         String a = sc.nextLine();
-        System.out.print("Input ur 2nd input: ");
+        System.out.print("Input ur 2nd number: ");
         String b = sc.nextLine();
-        int c = Integer.parseInt(a);
-        int d = Integer.parseInt(b);
-        System.out.println(c/d);
+        try {
+            int c = Integer.parseInt(a);
+            int d = Integer.parseInt(b);
+            System.out.println((double) c / d);
+        } catch (Exception e) {
+            System.out.println("Your input is not a number!");
+        }
     }
 }
