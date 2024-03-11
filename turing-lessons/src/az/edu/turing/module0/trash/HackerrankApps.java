@@ -2,9 +2,11 @@ package az.edu.turing.module0.trash;
 
 import java.util.Scanner;
 
-public class HackerrankApps {
+public class HackerrankApps implements Runnable{
     public static void main(String []argh)
     {
+        Runnable.run();
+
         Scanner sc = new Scanner(System.in);
         int t=sc.nextInt();
 
@@ -27,6 +29,10 @@ public class HackerrankApps {
             }
 
         }
+    }
+    @Override
+    public void jump (){
+        System.out.println("Run");
     }
 }
 

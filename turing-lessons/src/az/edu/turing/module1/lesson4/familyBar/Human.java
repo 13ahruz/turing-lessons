@@ -1,16 +1,33 @@
 package az.edu.turing.module1.lesson4.familyBar;
 
 import java.util.Arrays;
+import java.util.Objects;
 
-public class Human {
-    String name;
-    String surname;
-    int year;
-    int iq = 1;
-    Pet pet;
-    Human mother;
-    Human father;
-    String [][] schedule;
+public class Human{
+
+    private String name;
+    private String surname;
+    private int year;
+    private int iq;
+    private Pet pet;
+    private Human mother;
+    private Human father;
+    private String[][] schedule;
+    private Family family;
+
+    public Human() {
+
+    }
+
+    public Human(String name, String surname, int year, int iq, Pet pet, Human mother, Human father) {
+        this.name = name;
+        this.surname = surname;
+        this.year = year;
+        this.iq = iq;
+        this.pet = pet;
+        this.mother = mother;
+        this.father = father;
+    }
 
     public Human(String name, String surname, int year) {
         this.name = name;
@@ -26,54 +43,117 @@ public class Human {
         this.father = father;
     }
 
-    public Human(String name, String surname, int year, int iq, Pet pet, Human mother, Human father, String[][] shedule) {
+    public Human(String name, String surname, int year, int iq, Pet pet, Human mother, Human father, String[][] schedule) {
         this.name = name;
         this.surname = surname;
         this.year = year;
-        if (iq <= 100 && iq >= 1){
         this.iq = iq;
-        }
         this.pet = pet;
         this.mother = mother;
         this.father = father;
-        this.schedule = shedule;
+        this.schedule = schedule;
     }
 
-    public Human() {
+    public String getName() {
+        return name;
     }
 
-    public void greetPet (){
-        System.out.println("Hello, " + pet.nickname);
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void describePet (){
-        String trickL;
-        if (pet.trickLevel > 50){
-            trickL = "Very sly";
-        }
-        else {
-            trickL = "Almost not sly";
-        }
-        System.out.printf("I have an %s is %.1f years old. He is %s.\n", pet.species, pet.age, trickL);
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public int getIq() {
+        return iq;
+    }
+
+    public void setIq(int iq) {
+        this.iq = iq;
+    }
+
+    public Pet getPet() {
+        return pet;
+    }
+
+    public void setPet(Pet pet) {
+        this.pet = pet;
+    }
+
+    public Human getMother() {
+        return mother;
+    }
+
+    public void setMother(Human mother) {
+        this.mother = mother;
+    }
+
+    public Human getFather() {
+        return father;
+    }
+
+    public void setFather(Human father) {
+        this.father = father;
+    }
+
+    public String[][] getSchedule() {
+        return schedule;
+    }
+
+    public void setSchedule(String[][] schedule) {
+        this.schedule = schedule;
+    }
+
+    public Family getFamily() {
+        return family;
+    }
+
+    public void setFamily(Family family) {
+        this.family = family;
+    }
+
+    public void greetPet() {
+        System.out.println(pet.getNickname());
+    }
+
+    public void describePet() {
+        System.out.println("I have an " + pet.getSpecies() + " is " + pet.getAge() + " years old,he is " +
+                ((pet.getTrickLevel() > 50) ? "very sly" : "almost not sly"));
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Human human = (Human) o;
+        return year == human.year && iq == human.iq && Objects.equals(name, human.name) && Objects.equals(surname, human.surname) && Objects.equals(pet, human.pet) && Objects.equals(mother, human.mother) && Objects.equals(father, human.father) && Arrays.equals(schedule, human.schedule);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = Objects.hash(name, surname, year, iq, pet, mother, father);
+        result = 31 * result + Arrays.deepHashCode(schedule);
+        return result;
     }
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("Human{name='").append(name).append('\'');
-        sb.append(", surname='").append(surname).append('\'');
-        sb.append(", year=").append(year);
-        sb.append(", iq=").append(iq);
-        sb.append(", pet=").append(pet.nickname);
-        sb.append(", mother=").append(mother.name);
-        sb.append(", father=").append(father.name);
-        sb.append(", schedule=[");
-        for (String[] day : schedule) {
-            sb.append(Arrays.toString(day)).append(", ");
-        }
-        sb.setLength(sb.length() - 2);
-        sb.append("]}");
-        return sb.toString();
+        return String.format(
+                "Human { name = %s , surname = %s , year = %d , iq = %d , mother = %s , father = %s , pet = %s",
+                name, surname, year, iq, mother.getName(), father.getName(), pet.getNickname());
     }
-
 }

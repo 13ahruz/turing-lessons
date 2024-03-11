@@ -2,20 +2,32 @@ package az.edu.turing.module1.lesson4.familyBar;
 
 public class FamilyApp {
     public static void main(String[] args) {
-        Human mother1 = new Human("Samira", "Aliyeva", 1970);
-        Human father1 = new Human("Qulu", "Aliyev", 1969);
-        String [][] schedule = {{"Sunday", "Sport"}, {"Monday", "Education"}};
-        String [] habits = {"Running", "Playing Ball"};
-        Pet pet = new Pet("Scottish", "Balalayka", 2, 85, habits);
-        Human akif = new Human("Akif", "Akifsoy", 1996, 53,
-                pet, mother1, father1, schedule);
+        Pet pet =new Fish(Species.DOMESTICCAT,"Akif");
+        Human human1 = new Human("Arif",
+                "Hesenov",
+                1999,
+                65,
+                new Dog(Species.DOG, "Lusy"),
+                new Human("Sevda", "Hesenova", 1974),
+                new Human("Kamil", "Hesenov", 1960));
 
-        System.out.println(akif.toString());
-        System.out.println(pet.toString());
-        pet.eat();
-        pet.respond();
-        pet.foul();
-        akif.describePet();
-        akif.greetPet();
+        Human human2 = new Human("Arif",
+                "Hesenov",
+                1999,
+                65,
+                new Fish(Species.FISH, "Lusy"),
+                new Human("Sevda", "Hesenova", 1974),
+                new Human("Kamil", "Hesenov", 1960));
+        System.out.println(human2);
+        System.out.println(human1);
+        System.out.println("==========================");
+        Family family1=new Family(human1,human2);
+        family1.addChild(human1);
+        family1.addChild(human2);
+        System.out.println(family1);
+        family1.deleteChild(1);
+        family1.deleteChild(human1);
+        System.out.println(family1);
+        System.out.println(family1.countFamily());
     }
 }
