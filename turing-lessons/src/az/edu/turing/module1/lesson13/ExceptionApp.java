@@ -10,6 +10,7 @@ public class ExceptionApp {
         String line1 = sc.nextLine();
         System.out.print("Input ur 2nd number: ");
         String line2 = sc.nextLine();
+
         try {
             int number1 = Integer.parseInt(line1);
             int number2 = Integer.parseInt(line2);
@@ -18,6 +19,8 @@ public class ExceptionApp {
             System.out.println(result);
         } catch (Exception e) {
             System.out.println("Your input is not a valid number!");
+            System.out.println(e.getMessage());
         }
     }
+
 }

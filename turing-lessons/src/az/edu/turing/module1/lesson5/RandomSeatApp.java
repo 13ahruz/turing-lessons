@@ -29,6 +29,7 @@ public class RandomSeatApp {
         }
     }
 
+
     public static void printResult(String[] students, int[] seats) {
         for (int i = 0; i < students.length; i++) {
             String student = students[i];
@@ -36,6 +37,7 @@ public class RandomSeatApp {
             System.out.printf("%s\t->\tSeat %d\n", student, seat);
         }
     }
+
 
     public static void fillArray(int[] array) {
         // If you want, we can fill the array manually,
