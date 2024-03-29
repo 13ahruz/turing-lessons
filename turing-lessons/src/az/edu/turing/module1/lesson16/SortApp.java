@@ -3,6 +3,7 @@ package az.edu.turing.module1.lesson16;
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
+import java.util.stream.Stream;
 
 public class SortApp {
     public static void main(String[] args) {
@@ -17,6 +18,13 @@ public class SortApp {
         Arrays.sort(nums);
         for (int i = 0; i < len; i++) {
             System.out.print(nums[i] + ", ");
+        }
+
+
+        String [] sts = {"\nSalam", "Qaqa", "AyQaqa", "Necesen"};
+        Arrays.sort(sts);
+        for (int i = 0; i < sts.length; i++) {
+            System.out.println(sts[i]);
         }
     }
 }
