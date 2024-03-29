@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2286e96a-8b84-462a-b663-8c562ac22551" name="Changes" comment="StringApp Loaded">
+      <change afterPath="$PROJECT_DIR$/../LeylaLessons/LeylaLessons.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/az/edu/turing/module1/lesson4/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/az/edu/turing/module1/lesson4/DoSomethingApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/az/edu/turing/module1/lesson4/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turing-lessons.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson1/AllDivisorsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson1/AllDivisorsApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson1/DividendApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson1/DividendApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson1/GradeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson1/GradeApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson1/MonthNumberApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson1/MonthNumberApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson1/MultiplicationApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson1/MultiplicationApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson1/NSizeArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson1/NSizeArrayApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson1/SeasonsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson1/SeasonsApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson1/TwoDArraryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson1/TwoDArraryApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson10/PrintArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson10/PrintArrayApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson10/Rectangle2App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson10/Rectangle2App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson11/StringApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson11/StringApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson12/StringApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson12/StringApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/AtLeastOneCondApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/AtLeastOneCondApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/ConditionalSt1App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/ConditionalSt1App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/ConditionalSt2App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/ConditionalSt2App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/ConditionalSt3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/ConditionalSt3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/DivisibilityApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/DivisibilityApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/DivisibilityByDigitsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/DivisibilityByDigitsApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/DivisibilityByNumApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/DivisibilityByNumApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/EachConditionApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/EachConditionApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/EducationalLevelApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/EducationalLevelApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/EvenOrOddApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/EvenOrOddApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/FirstOrLastApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/FirstOrLastApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/InsideTheIntervalApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/InsideTheIntervalApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/MaxOfFourApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/MaxOfFourApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/MinAndMaxApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/MinAndMaxApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/NameOfMonthApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/NameOfMonthApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/NextEvenIntApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/NextEvenIntApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/NextOddIntApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/NextOddIntApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/OneCondOutOfTwoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/OneCondOutOfTwoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/OneDigitNumberApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/OneDigitNumberApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/OutTheIntervalApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/OutTheIntervalApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/PosNegZeroApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/PosNegZeroApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/PreviousEvenApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/PreviousEvenApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/PreviousOddApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/PreviousOddApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/ProductsOfDigitsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/ProductsOfDigitsApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/SameSignApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/SameSignApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/SeassonApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/SeassonApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/SgnApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/SgnApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/SimpleProblemApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/SimpleProblemApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/StreetNumbersApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/StreetNumbersApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/SumOfDigitsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/SumOfDigitsApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/TwoDigitNumberApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/TwoDigitNumberApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson2/WaterIceApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson2/WaterIceApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson5/ArrayBeginingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson5/ArrayBeginingApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson5/MatrixApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson5/MatrixApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson5/MedianNumberApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson5/MedianNumberApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson5/MinAndMaxApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson5/MinAndMaxApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson5/ProductsOfDigitsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson5/ProductsOfDigitsApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson5/Rectangle2App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson5/Rectangle2App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson5/RectangleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson5/RectangleApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson5/SnakeMatrixApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson5/SnakeMatrixApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson5/SumSquareApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson5/SumSquareApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson5/UseTheFunctionApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson5/UseTheFunctionApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson8/DiamondSharpsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson8/DiamondSharpsApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson8/GuessNumberApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson8/GuessNumberApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson8/ShipBattleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson8/ShipBattleApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson9/FunctionsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson9/FunctionsApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/lesson9/MethodsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/lesson9/MethodsApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/az/edu/turing/trash/HackerrankApps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/az/edu/turing/module0/trash/HackerrankApps.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2bXVdNANjSk8SNtE8Jx14v3MBgX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ROMedia/Desktop/Turing/turing-lessons&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2286e96a-8b84-462a-b663-8c562ac22551" name="Changes" comment="" />
+      <created>1706361498053</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706361498053</updated>
+      <workItem from="1706361500775" duration="348000" />
+      <workItem from="1706361969237" duration="172000" />
+      <workItem from="1706362600443" duration="320000" />
+      <workItem from="1706363056522" duration="302000" />
+      <workItem from="1706443301791" duration="26000" />
+      <workItem from="1706542016698" duration="5595000" />
+      <workItem from="1706630523663" duration="4466000" />
+      <workItem from="1706686920165" duration="3216000" />
+      <workItem from="1706716373468" duration="3813000" />
+      <workItem from="1706806580716" duration="17000000" />
+      <workItem from="1706849463611" duration="11561000" />
+      <workItem from="1706887224767" duration="3899000" />
+      <workItem from="1707671201365" duration="271000" />
+      <workItem from="1707924205768" duration="2405000" />
+      <workItem from="1708320602480" duration="388000" />
+      <workItem from="1708354693302" duration="2470000" />
+    </task>
+    <task id="LOCAL-00001" summary="Some changes">
+      <created>1706362855428</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706362855428</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Some changes">
+      <created>1706363133034</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706363133034</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Some changes">
+      <created>1706363191430</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706363191430</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Some changes">
+      <created>1706363252628</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706363252628</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Some changes">
+      <created>1706542157463</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706542157463</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Some changes">
+      <created>1706542655374</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706542655374</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Some changes">
+      <created>1706542867126</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706542867126</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Some changes">
+      <created>1706542899857</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706542899857</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Some changes">
+      <created>1706545641493</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706545641493</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Some changes">
+      <created>1706545984691</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706545984691</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Some changes">
+      <created>1706546619083</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706546619083</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Some changes">
+      <created>1706546633369</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706546633369</updated>
+    </task>
+    <task id="LOCAL-00013" summary="MethodsApp">
+      <created>1706546919885</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706546919885</updated>
+    </task>
+    <task id="LOCAL-00014" summary="New Apps Loaded">
+      <created>1706546961529</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1706546961529</updated>
+    </task>
+    <task id="LOCAL-00015" summary="New Apps Loaded">
+      <created>1706716590114</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1706716590114</updated>
+    </task>
+    <task id="LOCAL-00016" summary="New Apps Loaded">
+      <created>1706716974005</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1706716974005</updated>
+    </task>
+    <task id="LOCAL-00017" summary="New Apps Loaded">
+      <created>1706717274783</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1706717274783</updated>
+    </task>
+    <task id="LOCAL-00018" summary="New Apps Loaded">
+      <created>1706718404443</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1706718404443</updated>
+    </task>
+    <task id="LOCAL-00019" summary="StringApp Loaded">
+      <created>1706719569317</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1706719569317</updated>
+    </task>
+    <task id="LOCAL-00020" summary="StringApp Loaded">
+      <created>1706719656340</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1706719656340</updated>
+    </task>
+    <task id="LOCAL-00021" summary="StringApp Loaded">
+      <created>1706719818864</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1706719818864</updated>
+    </task>
+    <task id="LOCAL-00022" summary="StringApp Loaded">
+      <created>1706888997823</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1706888997823</updated>
+    </task>
+    <task id="LOCAL-00023" summary="StringApp Loaded">
+      <created>1706889982265</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1706889982265</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Some changes" />
+    <MESSAGE value="MethodsApp" />
+    <MESSAGE value="New Apps Loaded" />
+    <MESSAGE value="StringApp Loaded" />
+    <option name="LAST_COMMIT_MESSAGE" value="StringApp Loaded" />
+  </component>
+</project>
