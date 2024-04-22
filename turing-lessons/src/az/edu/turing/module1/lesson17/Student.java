@@ -1,6 +1,6 @@
 package az.edu.turing.module1.lesson17;
 
-public class Student  {
+public class Student {
     public String name;
     public double score;
     public int age;

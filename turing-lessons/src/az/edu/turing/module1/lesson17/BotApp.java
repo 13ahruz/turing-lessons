@@ -5,7 +5,7 @@ public class BotApp {
         Fly("URL");
     }
 
-    public static void Fly (String URL){
+    public static void Fly(String URL) {
         System.out.println(URL + " Plane flied; ");
     }
 }
