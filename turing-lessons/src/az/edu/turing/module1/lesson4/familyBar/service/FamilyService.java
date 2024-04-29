@@ -18,9 +18,9 @@ public class FamilyService {
         return familyDao.getAllFamilies();
     }
 
-    public void displayAllFamilies(int count) {
+    public void displayAllFamilies() {
         familyDao.getAllFamilies().forEach(family ->
-                System.out.println(family.toString()));
+                System.out.println(family.prettyFormat()));
     }
 
     public List<Family> getFamiliesBiggerThan(int size) {

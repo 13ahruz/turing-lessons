@@ -18,8 +18,8 @@ public class FamilyController {
         return familyService.getAllFamilies();
     }
 
-    public void displayAllFamilies(int count) {
-        familyService.displayAllFamilies(count);
+    public void displayAllFamilies() {
+        familyService.displayAllFamilies();
     }
 
     public List<Family> getFamiliesBiggerThan(int size) {

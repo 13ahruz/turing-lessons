@@ -1,69 +1,128 @@
 package az.edu.turing.module1.lesson4.familyBar;
+
+import az.edu.turing.module1.lesson4.familyBar.controller.FamilyController;
+import az.edu.turing.module1.lesson4.familyBar.dao.FamilyDao;
+import az.edu.turing.module1.lesson4.familyBar.dao.impl.CollectionFamilyDao;
+import az.edu.turing.module1.lesson4.familyBar.service.FamilyService;
+
+import java.util.Scanner;
+
 public class FamilyApp {
+
+    private static final Scanner scanner = new Scanner(System.in);
+    public static FamilyDao familyDao = new CollectionFamilyDao();
+    public static FamilyService familyService = new FamilyService(familyDao);
+    public static FamilyController familyController = new FamilyController(familyService);
     public static void main(String[] args) {
 
-        Human mother = new Human("Jane", "Karleone", 1940);
-        Human father = new Human("Vito", "Karleone", 1950);
-        Pet pet1 = new Dog("Rock");
+        while (true) {
+            displayMenu();
+            int choice = readChoice();
+            switch (choice) {
+                case 1:
+                    break;
+                case 2:
+                    familyController.displayAllFamilies();
+                    break;
+                case 3:
+                    displayFamiliesWithMoreMembers();
+                    break;
+                case 4:
+                    displayFamiliesWithFewerMembers();
+                    break;
+                case 5:
+                    calculateNumberOfFamilies();
+                    break;
+                case 6:
+                    createNewFamily();
+                    break;
+                case 7:
+                    deleteFamilyByIndex();
+                    break;
+                case 8:
+                    break;
+                case 9:
+                    removeChildrenOverAgeOfMajority();
+                    break;
+                case 0:
+                    System.out.println("Exiting the program...");
+                    return;
+                default:
+                    System.out.println("Invalid choice. Please choose again.");
+            }
+        }
+    }
 
-        Family family = new Family(mother, father,pet1);
+    private static void displayMenu() {
+        System.out.println("Menu:");
+        System.out.println("1. Fill with test data");
+        System.out.println("2. Display the entire list of families");
+        System.out.println("3. Display a list of families where the number of people is greater than the specified number");
+        System.out.println("4. Display a list of families where the number of people is less than the specified number");
+        System.out.println("5. Calculate the number of families where the number of members is");
+        System.out.println("6. Create a new family");
+        System.out.println("7. Delete a family by its index in the general list");
+        System.out.println("8. Edit a family by its index in the general list");
+        System.out.println("9. Remove all children over the age of majority");
+        System.out.println("0. Exit");
+        System.out.print("Enter your choice: ");
+    }
 
+    private static int readChoice() {
+        return scanner.nextInt();
+    }
 
-        Human child1 = new Human("Michael", "Karleone", 1977);
-        family.addChild(child1);
-        System.out.println(family.countFamily()); // 3
-        System.out.println(family); // mother, father, pet, child1
+    private static void displayFamiliesWithMoreMembers() {
+        System.out.print("Enter the number of members: ");
+        int size = scanner.nextInt();
+        familyController.getFamiliesBiggerThan(size).forEach(System.out::println);
+    }
 
+    private static void displayFamiliesWithFewerMembers() {
+        System.out.print("Enter the number of members: ");
+        int size = scanner.nextInt();
+        familyController.getFamiliesLessThan(size).forEach(System.out::println);
+    }
 
-        Human child2 = new Human("Nazrin", "Karimli", 2004); // iq partladirrrr
-        family.addChild(child2);
-        System.out.println(family.countFamily()); // 4
-        System.out.println(family); // mother, father, pet, child1, child2
+    private static void calculateNumberOfFamilies() {
+        System.out.print("Enter the number of members: ");
+        int number = scanner.nextInt();
+        int count = familyController.countFamiliesWithMemberNumber(number);
+        System.out.println("Number of families with " + number + " members: " + count);
+    }
 
+    private static void createNewFamily() {
+        System.out.print("Enter mother's name: ");
+        String motherName = scanner.next();
+        System.out.print("Enter mother's surname: ");
+        String motherSurname = scanner.next();
+        // Complete other details for mother
+        System.out.print("Enter father's name: ");
+        String fatherName = scanner.next();
+        System.out.print("Enter father's surname: ");
+        String fatherSurname = scanner.next();
 
-        family.deleteChild(child1);  //  Michael övladlığa verildi
-        System.out.println(family.countFamily()); // 3
-        System.out.println(family);  // mother, father, pet, child2
+        Human mother = new Human(motherName, motherSurname);
+        Human father = new Human(fatherName, fatherSurname);
+        familyController.createNewFamily(father, mother);
+        System.out.println("New family created successfully.");
+    }
+
+    private static void deleteFamilyByIndex() {
+        System.out.print("Enter the index of the family to delete: ");
+        int index = scanner.nextInt();
+        boolean deleted = familyController.deleteFamilyByIndex(index);
+        if (deleted) {
+            System.out.println("Family at index " + index + " deleted successfully.");
+        } else {
+            System.out.println("Family deletion failed. Invalid index or other error occurred.");
+        }
+    }
+
+    private static void removeChildrenOverAgeOfMajority() {
+        System.out.print("Enter the age of majority: ");
+        int age = scanner.nextInt();
+        familyController.deleteAllChildrenOlderThan(age);
+        System.out.println("Children older than " + age + " removed from all families.");
     }
 }
-//
-//import javax.print.attribute.Size2DSyntax;
-//import java.sql.SQLOutput;
-//
-//public class FamilyApp {
-//    public static void main(String[] args) {
-//        Pet pet =new Fish(Species.DOMESTICCAT,"Akif");
-//        Human human1 = new Human("Arif",
-//                "Hesenov",
-//                1999,
-//                65,
-//                new Dog(Species.DOG, "Lusy"),
-//                new Human("Sevda", "Hesenova", 1974),
-//                new Human("Kamil", "Hesenov", 1960));
-//
-//        Human human2 = new Human("Arif",
-//                "Hesenov",
-//                1999,
-//                65,
-//                new Fish(Species.FISH, "Lusy"),
-//                new Human("Sevda", "Hesenova", 1974),
-//                new Human("Kamil", "Hesenov", 1960));
-//        System.out.println(human2);
-//        System.out.println(human1);
-//        System.out.println("==========================");
-//        Family family1=new Family(human1,human2);
-//        family1.addChild(human1);
-//        family1.addChild(human2);
-//        System.out.println(family1);
-//        family1.deleteChild(1);
-//        family1.deleteChild(human1);
-//        System.out.println(family1);
-//        System.out.println(family1.countFamily());
-//        System.out.print("Sout my code");
-//        System.out.println("Print my code,");
-//        SQLOutput(Size2DSyntax):
-//
-//    }
-//
-//
-//}

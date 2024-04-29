@@ -97,17 +97,18 @@ public class Family {
 
     @Override
     public String toString() {
-        return "Family{" +
-                "mother=" + mother +
-                ", father=" + father +
-                ", pet=" + pet +
-                ", children=" + children +
-                '}';
+        return "mother=%s, father=%s, pet=%s, children=%s}"
+                .formatted(mother, father, pet, children);
     }
 
     @Override
     public void finalize() throws Throwable {
         System.out.println("Removing family: " + mother.getName() + " and " + father.getName());
         super.finalize();
+    }
+
+    public String prettyFormat() {
+        return "mother: %s,\n father: %s,\n pet: %s,\n children: %s}"
+                .formatted(mother, father, pet, children);
     }
 }
