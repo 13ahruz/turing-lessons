@@ -1,16 +1,19 @@
 package az.edu.turing.module1.lesson4.familyBar;
 
-public class DomesticCat extends Pet{
-    public DomesticCat(Species species, String nickname) {
-        super(species, nickname);
+public class DomesticCat  extends Pet implements Fouling{
+    public DomesticCat(String nickname, int age, int trickLevel, String[] habits) {
+        super(nickname, age, trickLevel, habits);
     }
 
-    public DomesticCat(Species species, String nickname, int age, int trickLevel, String[] habits) {
-        super(species, nickname, age, trickLevel, habits);
+
+
+    @Override
+    public void respond() {
+        System.out.println("Meowwwwww");
     }
 
     @Override
-    public void eat (){
-        System.out.println("Domestic cat eats bread ...");
+    public void foul() {
+
     }
 }

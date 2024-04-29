@@ -1,13 +1,15 @@
 package az.edu.turing.module1.lesson23;
 
 public class Student {
+    public static long MAX_INDEX = 0;
     private long id;
     private int age;
     private float grade;
     private String name;
 
     public Student(long id, int age, float grade, String name) {
-        this.id = id;
+        this.id = id + MAX_INDEX;
+        MAX_INDEX++;
         this.age = age;
         this.grade = grade;
         this.name = name;
@@ -57,6 +59,6 @@ public class Student {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "Student{id=%d, age=%d, grade=%s, name='%s'}".formatted(id, age, grade, name);
     }
 }

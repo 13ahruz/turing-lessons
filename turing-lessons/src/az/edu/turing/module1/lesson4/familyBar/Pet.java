@@ -2,26 +2,32 @@ package az.edu.turing.module1.lesson4.familyBar;
 
 import java.util.Arrays;
 import java.util.Objects;
-
-public abstract class Pet  {
+import java.util.*;
+public abstract class Pet {
     private Species species;
     private String nickname;
     private int age;
     private int trickLevel;
-    private String[] habits;
+    private Set<String> habits;
 
-    public Pet(Species species, String nickname) {
-        this.species = species;
+    // Constructors
+    public Pet(String nickname) {
         this.nickname = nickname;
     }
 
-    public Pet(Species species, String nickname, int age, int trickLevel, String[] habits) {
+    public Pet(Species species, String nickname, int age, int trickLevel, Set<String> habits) {
         this.species = species;
         this.nickname = nickname;
         this.age = age;
         this.trickLevel = trickLevel;
         this.habits = habits;
     }
+
+    public Pet() {
+
+    }
+
+    // Getters setters
 
     public Species getSpecies() {
         return species;
@@ -55,22 +61,30 @@ public abstract class Pet  {
         this.trickLevel = trickLevel;
     }
 
-    public String[] getHabits() {
+    public Set<String> getHabits() {
         return habits;
     }
 
-    public void setHabits(String[] habits) {
+    public void setHabits(Set<String> habits) {
         this.habits = habits;
     }
 
-    public abstract void eat();
-
-    public void respond() {
-        System.out.println("Hello, owner. I am - " + nickname + ". I miss you!");
+    // Methods
+    public void eat() {
+        System.out.println("I am eating.");
     }
 
-    public void foul() {
-        System.out.println("I need to cover it up");
+    public abstract void respond();
+
+    @Override
+    public String toString() {
+        return "Pet{" +
+                "species=" + species +
+                ", nickname='" + nickname + '\'' +
+                ", age=" + age +
+                ", trickLevel=" + trickLevel +
+                ", habits=" + habits +
+                '}';
     }
 
     @Override
@@ -78,36 +92,17 @@ public abstract class Pet  {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Pet pet = (Pet) o;
-        return age == pet.age && trickLevel == pet.trickLevel && Objects.equals(species, pet.species) && Objects.equals(nickname, pet.nickname) && Arrays.equals(habits, pet.habits);
+        return age == pet.age && trickLevel == pet.trickLevel && species == pet.species && Objects.equals(nickname, pet.nickname) && Objects.equals(habits, pet.habits);
     }
 
     @Override
     public int hashCode() {
-        int result = Objects.hash(species, nickname, age, trickLevel);
-        result = 31 * result + Arrays.hashCode(habits);
-        return result;
+        return Objects.hash(species, nickname, age, trickLevel, habits);
     }
 
-    public String toString() {
-        if (habits!=null) {
-            return String.format("%s { nickname = %s , age = %d , trickLevel = %d , habits =%s } ",
-                    species, nickname, age, trickLevel, Arrays.toString(habits));
-        }else  return String.format("%s { nickname = %s } ",
-                species, nickname);
+    @Override
+    protected void finalize() throws Throwable {
+        System.out.println("Removing pet: " + nickname);
+        super.finalize();
     }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

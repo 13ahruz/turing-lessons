@@ -1,4 +1,31 @@
-//package az.edu.turing.module1.lesson4.familyBar;
+package az.edu.turing.module1.lesson4.familyBar;
+public class FamilyApp {
+    public static void main(String[] args) {
+
+        Human mother = new Human("Jane", "Karleone", 1940);
+        Human father = new Human("Vito", "Karleone", 1950);
+        Pet pet1 = new Dog("Rock");
+
+        Family family = new Family(mother, father,pet1);
+
+
+        Human child1 = new Human("Michael", "Karleone", 1977);
+        family.addChild(child1);
+        System.out.println(family.countFamily()); // 3
+        System.out.println(family); // mother, father, pet, child1
+
+
+        Human child2 = new Human("Nazrin", "Karimli", 2004); // iq partladirrrr
+        family.addChild(child2);
+        System.out.println(family.countFamily()); // 4
+        System.out.println(family); // mother, father, pet, child1, child2
+
+
+        family.deleteChild(child1);  //  Michael övladlığa verildi
+        System.out.println(family.countFamily()); // 3
+        System.out.println(family);  // mother, father, pet, child2
+    }
+}
 //
 //import javax.print.attribute.Size2DSyntax;
 //import java.sql.SQLOutput;

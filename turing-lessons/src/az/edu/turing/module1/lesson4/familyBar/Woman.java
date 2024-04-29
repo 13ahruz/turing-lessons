@@ -1,31 +1,25 @@
 package az.edu.turing.module1.lesson4.familyBar;
 
+import java.util.Map;
+
 public class Woman extends Human{
     public Woman() {
-    }
-
-    public Woman(String name, String surname, int year, int iq, Pet pet, Human mother, Human father) {
-        super(name, surname, year, iq, pet, mother, father);
     }
 
     public Woman(String name, String surname, int year) {
         super(name, surname, year);
     }
 
-    public Woman(String name, String surname, int year, Human mother, Human father) {
-        super(name, surname, year, mother, father);
-    }
-
-    public Woman(String name, String surname, int year, int iq, Pet pet, Human mother, Human father, String[][] schedule) {
-        super(name, surname, year, iq, pet, mother, father, schedule);
+    public Woman(String name, String surname, int year, int iq, Map<String, String> schedule, Family family) {
+        super(name, surname, year, iq, schedule, family);
     }
 
     @Override
     public void greetPet() {
-        System.out.println("Hello, " + getPet().getNickname() + ", I am ARVAD ...");
+        getFamily().getPet().stream().forEach(pet -> System.out.println("Hello, " + pet.getNickname()));
     }
 
-    public void makeUp (){
-        System.out.println("Give me my TANALNI");
+    public void washDishes (){
+        System.out.println("QOZ KIMI OLDU !");
     }
 }

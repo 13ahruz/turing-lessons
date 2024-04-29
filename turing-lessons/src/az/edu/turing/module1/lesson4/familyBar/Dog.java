@@ -1,16 +1,21 @@
 package az.edu.turing.module1.lesson4.familyBar;
 
-public class Dog extends Pet{
-    public Dog(Species species, String nickname) {
-        super(species, nickname);
+import java.util.Set;
+
+public class Dog extends Pet {
+    public Dog(String nickname) {
+        super(nickname);
     }
 
-    public Dog(Species species, String nickname, int age, int trickLevel, String[] habits) {
+    public Dog(Species species, String nickname, int age, int trickLevel, Set<String> habits) {
         super(species, nickname, age, trickLevel, habits);
     }
 
+    public Dog() {
+    }
+
     @Override
-    public void eat(){
-        System.out.println("Dog eats bone ...");
+    public void respond() {
+        System.out.println("Hav-hav-hav");
     }
 }
