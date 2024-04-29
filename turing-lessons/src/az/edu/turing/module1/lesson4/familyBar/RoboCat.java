@@ -1,8 +1,17 @@
 package az.edu.turing.module1.lesson4.familyBar;
 
+import java.util.Set;
+
 public class RoboCat extends Pet {
-    public RoboCat(String nickname, int age, int trickLevel, String[] habits) {
-        super(nickname, age, trickLevel, habits);
+    public RoboCat(String nickname) {
+        super(nickname);
+    }
+
+    public RoboCat(Species species, String nickname, int age, int trickLevel, Set<String> habits) {
+        super(species, nickname, age, trickLevel, habits);
+    }
+
+    public RoboCat() {
     }
 
     @Override
