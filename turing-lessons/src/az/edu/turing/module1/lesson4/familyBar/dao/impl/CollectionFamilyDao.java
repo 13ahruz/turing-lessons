@@ -52,16 +52,12 @@ public class CollectionFamilyDao implements FamilyDao {
 
     @Override
     public void saveFamily(Family family) {
-        try {
-            if (allFamilies.contains(family)) {
-                int index = allFamilies.indexOf(family);
-                allFamilies.set(index, family);
-            } else {
-                allFamilies.add(family);
-            }
+        if (allFamilies.contains(family)){
+            int index = allFamilies.indexOf(family);
+            allFamilies.set(index, family);
         }
-        catch (Exception e){
-            System.out.println("Error occured while saving family ...");
+        else {
+            allFamilies.add(family);
         }
     }
 }
