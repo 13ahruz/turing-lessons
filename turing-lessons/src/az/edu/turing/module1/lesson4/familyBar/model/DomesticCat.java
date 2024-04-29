@@ -1,8 +1,10 @@
-package az.edu.turing.module1.lesson4.familyBar;
+package az.edu.turing.module1.lesson4.familyBar.model;
+
+import az.edu.turing.module1.lesson4.familyBar.other.Fouling;
 
 import java.util.Set;
 
-public class DomesticCat  extends Pet implements Fouling{
+public class DomesticCat  extends Pet implements Fouling {
 
     public DomesticCat(String nickname) {
         super(nickname);

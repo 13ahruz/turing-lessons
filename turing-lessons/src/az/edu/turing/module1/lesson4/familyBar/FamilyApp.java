@@ -3,6 +3,7 @@ package az.edu.turing.module1.lesson4.familyBar;
 import az.edu.turing.module1.lesson4.familyBar.controller.FamilyController;
 import az.edu.turing.module1.lesson4.familyBar.dao.FamilyDao;
 import az.edu.turing.module1.lesson4.familyBar.dao.impl.CollectionFamilyDao;
+import az.edu.turing.module1.lesson4.familyBar.model.Human;
 import az.edu.turing.module1.lesson4.familyBar.service.FamilyService;
 
 import java.util.Scanner;

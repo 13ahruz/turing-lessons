@@ -1,8 +1,8 @@
 package az.edu.turing.module1.lesson4.familyBar.service;
 
-import az.edu.turing.module1.lesson4.familyBar.Family;
-import az.edu.turing.module1.lesson4.familyBar.Human;
-import az.edu.turing.module1.lesson4.familyBar.Pet;
+import az.edu.turing.module1.lesson4.familyBar.model.Family;
+import az.edu.turing.module1.lesson4.familyBar.model.Human;
+import az.edu.turing.module1.lesson4.familyBar.model.Pet;
 import az.edu.turing.module1.lesson4.familyBar.dao.FamilyDao;
 
 import java.util.List;

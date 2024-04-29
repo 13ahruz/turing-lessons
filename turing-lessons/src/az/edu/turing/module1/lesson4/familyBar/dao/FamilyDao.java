@@ -1,6 +1,6 @@
 package az.edu.turing.module1.lesson4.familyBar.dao;
 
-import az.edu.turing.module1.lesson4.familyBar.Family;
+import az.edu.turing.module1.lesson4.familyBar.model.Family;
 
 import java.util.List;
 

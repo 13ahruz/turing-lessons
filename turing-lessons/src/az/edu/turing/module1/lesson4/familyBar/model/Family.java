@@ -1,6 +1,5 @@
-package az.edu.turing.module1.lesson4.familyBar;
+package az.edu.turing.module1.lesson4.familyBar.model;
 
-import java.util.Arrays;
 import java.util.Objects;
 import java.util.*;
 

@@ -1,9 +1,8 @@
-package az.edu.turing.module1.lesson4.familyBar;
+package az.edu.turing.module1.lesson4.familyBar.model;
 
 import java.time.LocalDate;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
-import java.util.Arrays;
 import java.util.Objects;
 import java.util.*;
 
